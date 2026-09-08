@@ -6,7 +6,14 @@
     <title>04-Basic selectors</title>
     <link rel="stylesheet" href="../src/css/styles.css">
     <style>
-        * {border: 1px solid, rgb(134, 72, 131); }
+    /* Universal selector  {border: 1px solid, rgb(174, 8, 240); }*/
+        section#sec01 h4 {
+            border: none;
+            text-align: center;
+            &.upper {text-transform: uppercase;}
+            &.rotate {transform: rotate(-45deg);}
+            &.txt-lg {font-size: 4rem;}
+        }
     </style>
 </head>
 <body class="css"> 
